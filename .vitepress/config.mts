@@ -13,7 +13,7 @@ export default defineConfig({
       {
         text: '前端学习',
         items: [
-          { text: 'JavaScript', link: '/Note/JavaScript/Object' },
+          { text: 'JavaScript', link: '/Note/JavaScript/原型&原型链' },
           { text: 'CSS', link: '/Note/CSS/mycss' },
           { text: 'HTML', link: '/Note/HTML/myhtml' },
         ],
@@ -25,7 +25,7 @@ export default defineConfig({
         {
           text: 'JavaScript学习',
           collapsed: false,
-          items: [{ text: 'Object', link: '/Note/JavaScript/Object' }],
+          items: [{ text: '原型&原型链', link: '/Note/JavaScript/原型&原型链' }],
         },
       ],
       '/Note/CSS/': [

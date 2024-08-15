@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: JavaScript笔记
-      link: /Note/JavaScript/Object
+      link: /Note/JavaScript/原型&原型链
     - theme: alt
       text: CSS笔记
       link: /Note/CSS/mycss
