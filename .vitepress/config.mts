@@ -25,7 +25,10 @@ export default defineConfig({
         {
           text: 'JavaScript学习',
           collapsed: false,
-          items: [{ text: '原型&原型链', link: '/Note/JavaScript/原型&原型链' }],
+          items: [
+            { text: '原型&原型链', link: '/Note/JavaScript/原型&原型链' },
+            { text: '传递参数', link: '/Note/JavaScript/传递参数' },
+          ],
         },
       ],
       '/Note/CSS/': [
