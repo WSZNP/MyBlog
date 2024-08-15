@@ -13,10 +13,6 @@ export default defineConfig({
         text: '前端学习',
         items: [{ text: 'JavaScript', link: '/Note/JavaScript/Object' }],
       },
-      {
-        text: '后端学习',
-        link: '/api-examples',
-      },
     ],
 
     sidebar: {
@@ -26,10 +22,6 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Object', link: '/Note/JavaScript/Object' },
-            { text: 'Array', link: '/JavaScript/Array' },
-            { text: 'Function', link: '/JavaScript/Function' },
-            { text: 'RegExp', link: '/JavaScript/RegExp' },
-            { text: 'Promise', link: '/JavaScript/Promise' },
           ],
         },
       ],

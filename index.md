@@ -15,10 +15,10 @@ hero:
       link: /Note/JavaScript/Object
     - theme: alt
       text: CSS笔记
-      link: /Note/Css/Object
+      link: /Note/JavaScript/Object
     - theme: alt
       text: HTML笔记
-      link: /Note/HTML/Object
+      link: /Note/JavaScript/Object
 
 features:
   - icon: 🤩
