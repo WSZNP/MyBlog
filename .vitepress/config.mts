@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: '沐码编程学习-文档站',
   description: '一个文档站',
-  base:'MyBlog',
+  // base: 'MyBlog',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
