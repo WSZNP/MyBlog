@@ -41,6 +41,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '原型&原型链', link: '/Note/JavaScript/原型&原型链' },
+            { text: '重写数组方法', link: '/Note/JavaScript/重写数组方法' },
           ],
         },
         {
