@@ -9,13 +9,22 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
+    search: {
+      provider: 'local',
+    },
     nav: [
+      { text: '首页', link: '/' },
       {
-        text: '前端学习',
+        text: '前端开发',
         items: [
-          { text: 'JavaScript', link: '/Note/JavaScript/原型&原型链' },
-          { text: 'CSS', link: '/Note/CSS/mycss' },
-          { text: 'HTML', link: '/Note/HTML/myhtml' },
+          {
+            text: '前端语言和框架',
+            items: [
+              { text: 'JavaScript', link: '/Note/JavaScript/原型&原型链' },
+              { text: 'HTML', link: '/Note/HTML/myhtml' },
+              { text: 'CSS', link: '/Note/CSS/mycss' },
+            ],
+          },
         ],
       },
     ],
@@ -23,12 +32,21 @@ export default defineConfig({
     sidebar: {
       '/Note/JavaScript/': [
         {
-          text: 'JavaScript学习',
+          text: 'JavaScript基础',
+          collapsed: true,
+          items: [{ text: '传递参数', link: '/Note/JavaScript/传递参数' }],
+        },
+        {
+          text: 'JavaScript进阶',
           collapsed: false,
           items: [
             { text: '原型&原型链', link: '/Note/JavaScript/原型&原型链' },
-            { text: '传递参数', link: '/Note/JavaScript/传递参数' },
           ],
+        },
+        {
+          text: 'JavaScript应用',
+          collapsed: false,
+          items: [{ text: '深拷贝', link: '/Note/JavaScript/深拷贝' }],
         },
       ],
       '/Note/CSS/': [
@@ -50,8 +68,17 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
+    outline: {
+      level: 'deep',
+      label: '章节导航',
+    },
+    lastUpdatedText: '上次更新时间',
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
     footer: {
-      message: '是什么让你学习？',
+      message: 'Keep Reading, Keep Writing, Keep Coding',
       copyright: 'Copyright © 2022-2024 沐码',
     },
   },
