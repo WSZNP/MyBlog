@@ -3,8 +3,9 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: '沐码编程学习-文档站',
-  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+  lang: 'zh-CN',
   description: '一个文档站',
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   base: '/MyBlog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
