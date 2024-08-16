@@ -74,7 +74,6 @@ export default defineConfig({
       level: 'deep',
       label: '章节导航',
     },
-    lastUpdatedText: '上次更新时间',
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
@@ -82,6 +81,13 @@ export default defineConfig({
     footer: {
       message: 'Keep Reading, Keep Writing, Keep Coding',
       copyright: 'Copyright © 2022-2024 沐码',
+    },
+    lastUpdated: {
+      text: '上次更新时间',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'medium',
+      },
     },
   },
 });
