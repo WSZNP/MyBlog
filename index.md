@@ -18,7 +18,7 @@ hero:
       link: /Note/CSS/mycss
     - theme: alt
       text: HTML笔记
-      link: /Note/HTML/myhtml
+      link: /Note/HTML/HTML5-drag-API
 
 features:
   - icon: 🤩

@@ -22,7 +22,7 @@ export default defineConfig({
             text: '前端语言和框架',
             items: [
               { text: 'JavaScript', link: '/Note/JavaScript/原型&原型链' },
-              { text: 'HTML', link: '/Note/HTML/myhtml' },
+              { text: 'HTML', link: '/Note/HTML/HTML5-drag-API' },
               { text: 'CSS', link: '/Note/CSS/mycss' },
             ],
           },
@@ -62,8 +62,7 @@ export default defineConfig({
       '/Note/HTML/': [
         {
           text: 'HTML学习',
-          collapsed: false,
-          items: [{ text: 'index', link: '/Note/HTML/myhtml' }],
+          items: [{ text: 'HTML5-drag-API', link: '/Note/HTML/HTML5-drag-API' }],
         },
       ],
     },
