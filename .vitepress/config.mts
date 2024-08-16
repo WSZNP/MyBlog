@@ -23,7 +23,7 @@ export default defineConfig({
             items: [
               { text: 'JavaScript', link: '/Note/JavaScript/原型&原型链' },
               { text: 'HTML', link: '/Note/HTML/HTML5-drag-API' },
-              { text: 'CSS', link: '/Note/CSS/mycss' },
+              { text: 'CSS', link: '/Note/CSS/渐变文字' },
             ],
           },
         ],
@@ -56,7 +56,7 @@ export default defineConfig({
         {
           text: 'CSS学习',
           collapsed: false,
-          items: [{ text: 'index', link: '/Note/CSS/mycss' }],
+          items: [{ text: '渐变文字', link: '/Note/CSS/渐变文字' }],
         },
       ],
       '/Note/HTML/': [

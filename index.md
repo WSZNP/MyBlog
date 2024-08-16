@@ -15,7 +15,7 @@ hero:
       link: /Note/JavaScript/原型&原型链
     - theme: alt
       text: CSS笔记
-      link: /Note/CSS/mycss
+      link: /Note/CSS/渐变文字
     - theme: alt
       text: HTML笔记
       link: /Note/HTML/HTML5-drag-API
