@@ -65,14 +65,14 @@ export default defineConfig({
       '/Note/HTML/': [
         {
           text: 'HTML学习',
-          items: [{ text: 'HTML5-drag-API', link: '/Note/HTML/HTML5-drag-API' }],
+          items: [
+            { text: 'HTML5-drag-API', link: '/Note/HTML/HTML5-drag-API' },
+          ],
         },
       ],
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com' }],
     outline: {
       level: 'deep',
       label: '章节导航',
