@@ -56,7 +56,10 @@ export default defineConfig({
         {
           text: 'CSS学习',
           collapsed: false,
-          items: [{ text: '渐变文字', link: '/Note/CSS/渐变文字' }],
+          items: [
+            { text: '渐变文字', link: '/Note/CSS/渐变文字' },
+            { text: '三栏布局', link: '/Note/CSS/三栏布局' },
+          ],
         },
       ],
       '/Note/HTML/': [
