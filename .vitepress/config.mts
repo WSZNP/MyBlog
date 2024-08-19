@@ -35,7 +35,13 @@ export default defineConfig({
         {
           text: 'JavaScript基础',
           collapsed: true,
-          items: [{ text: '传递参数', link: '/Note/JavaScript/传递参数' }],
+          items: [
+            { text: '传递参数', link: '/Note/JavaScript/传递参数' },
+            {
+              text: '事件捕获&事件冒泡',
+              link: '/Note/JavaScript/事件捕获&事件冒泡',
+            },
+          ],
         },
         {
           text: 'JavaScript进阶',
