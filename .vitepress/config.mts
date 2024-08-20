@@ -38,6 +38,10 @@ export default defineConfig({
           items: [
             { text: '传递参数', link: '/Note/JavaScript/传递参数' },
             {
+              text: '与或操作符的返回值',
+              link: '/Note/JavaScript/与或操作符的返回值',
+            },
+            {
               text: '事件捕获&事件冒泡',
               link: '/Note/JavaScript/事件捕获&事件冒泡',
             },
