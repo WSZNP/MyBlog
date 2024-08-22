@@ -21,7 +21,7 @@ export default defineConfig({
           {
             text: '前端语言和框架',
             items: [
-              { text: 'JavaScript', link: '/Note/JavaScript/原型&原型链' },
+              { text: 'JavaScript', link: '/Note/JavaScript/传递参数' },
               { text: 'HTML', link: '/Note/HTML/HTML5-drag-API' },
               { text: 'CSS', link: '/Note/CSS/渐变文字' },
             ],
@@ -34,7 +34,7 @@ export default defineConfig({
       '/Note/JavaScript/': [
         {
           text: 'JavaScript基础',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '传递参数', link: '/Note/JavaScript/传递参数' },
             {
@@ -54,12 +54,18 @@ export default defineConfig({
             { text: '原型&原型链', link: '/Note/JavaScript/原型&原型链' },
             { text: '重写数组方法', link: '/Note/JavaScript/重写数组方法' },
             { text: '事件循环', link: '/Note/JavaScript/事件循环' },
+            { text: '继承', link: '/Note/JavaScript/继承' },
           ],
         },
         {
           text: 'JavaScript应用',
           collapsed: false,
           items: [{ text: '深拷贝', link: '/Note/JavaScript/深拷贝' }],
+        },
+        {
+          text: 'JavaScript小技巧',
+          collapsed: false,
+          items: [{ text: '开发小技巧', link: '/Note/JavaScript/开发小技巧' }],
         },
       ],
       '/Note/CSS/': [

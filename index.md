@@ -12,13 +12,13 @@ hero:
   actions:
     - theme: brand
       text: JavaScript笔记
-      link: /Note/JavaScript/原型&原型链
-    - theme: alt
-      text: CSS笔记
-      link: /Note/CSS/渐变文字
+      link: /Note/JavaScript/传递参数
     - theme: alt
       text: HTML笔记
       link: /Note/HTML/HTML5-drag-API
+    - theme: alt
+      text: CSS笔记
+      link: /Note/CSS/渐变文字
 
 features:
   - icon: 🤩
