@@ -90,7 +90,10 @@ export default defineConfig({
       '/Note/Network/': [
         {
           text: '计算机网络',
-          items: [{ text: 'HTTPS', link: '/Note/Network/HTTPS' }],
+          items: [
+            { text: 'HTTPS', link: '/Note/Network/HTTPS' },
+            { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
+          ],
         },
       ],
     },
