@@ -28,6 +28,7 @@ export default defineConfig({
           },
         ],
       },
+      { text: '计算机网络', link: '/Note/Network/HTTPS' },
     ],
 
     sidebar: {
@@ -84,6 +85,12 @@ export default defineConfig({
           items: [
             { text: 'HTML5-drag-API', link: '/Note/HTML/HTML5-drag-API' },
           ],
+        },
+      ],
+      '/Note/Network/': [
+        {
+          text: '计算机网络',
+          items: [{ text: 'HTTPS', link: '/Note/Network/HTTPS' }],
         },
       ],
     },
