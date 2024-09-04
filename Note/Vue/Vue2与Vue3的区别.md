@@ -9,7 +9,7 @@
 - 因为改成组合式 api 所以没有 this
 - 生命周期的差异
 - vue3 中 v-if 高于 v-for 的优先级
-- 根实例的创建从 new app 变成了 createApp 方 法
+- 根实例的创建从 new app 变成了 createApp 方法
 - 一些全局注册，比如 mixin，注册全局组件， use 改成了用 app 实例调用，而不是 vue 类调用
 - 新增了传送门 teleport 组件
 - vue3 可以有多个根节点
