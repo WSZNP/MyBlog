@@ -19,12 +19,16 @@ export default defineConfig({
         text: '前端开发',
         items: [
           {
-            text: '前端语言和框架',
+            text: '前端语言',
             items: [
               { text: 'JavaScript', link: '/Note/JavaScript/传递参数' },
               { text: 'HTML', link: '/Note/HTML/HTML5-drag-API' },
               { text: 'CSS', link: '/Note/CSS/渐变文字' },
             ],
+          },
+          {
+            text: '框架',
+            items: [{ text: 'Vue', link: '/Note/Vue/Vue2与Vue3的区别' }],
           },
         ],
       },
@@ -84,6 +88,14 @@ export default defineConfig({
           text: 'HTML学习',
           items: [
             { text: 'HTML5-drag-API', link: '/Note/HTML/HTML5-drag-API' },
+          ],
+        },
+      ],
+      '/Note/Vue/': [
+        {
+          text: 'Vue',
+          items: [
+            { text: 'Vue2与Vue3的区别', link: '/Note/Vue/Vue2与Vue3的区别' },
           ],
         },
       ],
