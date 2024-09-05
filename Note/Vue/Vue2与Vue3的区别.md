@@ -9,7 +9,7 @@
 - 因为改成组合式 api 所以没有 this
 - 生命周期的差异
 - vue3 中 v-if 高于 v-for 的优先级
-- 根实例的创建从 new app 变成了 createApp 方法
+- 根实例的创建从 new Vue 变成了 createApp 方法
 - 一些全局注册，比如 mixin，注册全局组件， use 改成了用 app 实例调用，而不是 vue 类调用
 - 新增了传送门 teleport 组件
 - vue3 可以有多个根节点
@@ -18,7 +18,7 @@
 
 #### 深入回答：
 
-- vue3 通过 reactive 定义的响应式数据使用 proxy 包装出来， ref 定义的基本类型数据通过 new 一个 class,设置 get set 的方式去实现响应式，引用类型数据就会在内部转换成 reactive 的方式代理
+- vue3 通过 reactive 定义的响应式数据使用 proxy 包装出来， ref 定义的基本类型数据通过 new 一个 class,设置 get set 的方式去实现响应式，引用类型数据就会在内部通过 toReactive 方法转换成 reactive 的方式代理
 
 ### 4. 支持按需引入，可以更好 tree-shaking
 
