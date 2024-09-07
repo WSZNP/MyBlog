@@ -18,7 +18,7 @@
 
 #### 深入回答：
 
-- vue3 通过 reactive 定义的响应式数据使用 proxy 包装出来， ref 定义的基本类型数据通过 new 一个 class,设置 get set 的方式去实现响应式，引用类型数据就会在内部通过 toReactive 方法转换成 reactive 的方式代理
+- vue3 并不是完全抛弃了 defineProperty，通过 reactive 定义的响应式数据使用 proxy 包装出来，而 ref 还是用的 defineProperty 去给一个空对象，定义了一个 value 属性来做的响应式
 
 ### 4. 支持按需引入，可以更好 tree-shaking
 
