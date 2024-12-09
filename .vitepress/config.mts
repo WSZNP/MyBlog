@@ -80,6 +80,7 @@ export default defineConfig({
           items: [
             { text: '渐变文字', link: '/Note/CSS/渐变文字' },
             { text: '三栏布局', link: '/Note/CSS/三栏布局' },
+            { text: 'conic-gradient画圆环', link: '/Note/CSS/conic-gradient画圆环' },
           ],
         },
       ],
