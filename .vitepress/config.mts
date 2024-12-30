@@ -36,8 +36,8 @@ export default defineConfig({
         text: '后端开发',
         items: [
           {
-            text: 'Java',
-            items: [{ text: 'Java学习', link: '/Note/Java/数据类型' }],
+            text: '后端',
+            items: [{ text: 'Java', link: '/Note/Java/常量与变量' }],
           },
         ],
       },
@@ -124,7 +124,10 @@ export default defineConfig({
       '/Note/Java/': [
         {
           text: 'Java基础',
-          items: [{ text: '数据类型', link: '/Note/Java/数据类型' }],
+          items: [
+            { text: '常量与变量', link: '/Note/Java/常量与变量' },
+            { text: '运算符', link: '/Note/Java/运算符' },
+          ],
         },
       ],
     },
