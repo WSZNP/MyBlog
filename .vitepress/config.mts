@@ -32,6 +32,15 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: '后端开发',
+        items: [
+          {
+            text: 'Java',
+            items: [{ text: 'Java学习', link: '/Note/Java/数据类型' }],
+          },
+        ],
+      },
       { text: '计算机网络', link: '/Note/Network/HTTPS' },
     ],
 
@@ -80,7 +89,10 @@ export default defineConfig({
           items: [
             { text: '渐变文字', link: '/Note/CSS/渐变文字' },
             { text: '三栏布局', link: '/Note/CSS/三栏布局' },
-            { text: 'conic-gradient画圆环', link: '/Note/CSS/conic-gradient画圆环' },
+            {
+              text: 'conic-gradient画圆环',
+              link: '/Note/CSS/conic-gradient画圆环',
+            },
           ],
         },
       ],
@@ -107,6 +119,12 @@ export default defineConfig({
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
+        },
+      ],
+      '/Note/Java/': [
+        {
+          text: 'Java基础',
+          items: [{ text: '数据类型', link: '/Note/Java/数据类型' }],
         },
       ],
     },
