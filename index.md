@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: CSS笔记
       link: /Note/CSS/渐变文字
+    - theme: alt
+      text: ES6 标准入门（阮一峰）
+      link: https://es6.ruanyifeng.com/
 
 features:
   - icon: 🤩
