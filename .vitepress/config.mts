@@ -24,6 +24,7 @@ export default defineConfig({
               { text: 'JavaScript', link: '/Note/JavaScript/传递参数' },
               { text: 'HTML', link: '/Note/HTML/HTML5-drag-API' },
               { text: 'CSS', link: '/Note/CSS/渐变文字' },
+              { text: 'DEMO合集', link: '/Note/前端DEMO/图片压缩' },
             ],
           },
           {
@@ -119,6 +120,12 @@ export default defineConfig({
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
+        },
+      ],
+      '/Note/前端DEMO/': [
+        {
+          text: 'DEMO',
+          items: [{ text: '图片压缩', link: '/Note/前端DEMO/图片压缩' }],
         },
       ],
       '/Note/Java/': [
