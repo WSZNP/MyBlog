@@ -137,6 +137,8 @@ export default defineConfig({
             { text: '运算符', link: '/Note/Java/运算符' },
             { text: '流程控制', link: '/Note/Java/流程控制' },
             { text: '数组', link: '/Note/Java/数组' },
+            { text: '方法', link: '/Note/Java/方法' },
+            { text: '初识面向对象', link: '/Note/Java/初识面向对象' },
           ],
         },
       ],
