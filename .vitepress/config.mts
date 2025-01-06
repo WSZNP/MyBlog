@@ -139,6 +139,7 @@ export default defineConfig({
             { text: '数组', link: '/Note/Java/数组' },
             { text: '方法', link: '/Note/Java/方法' },
             { text: '初识面向对象', link: '/Note/Java/初识面向对象' },
+            { text: '封装和继承', link: '/Note/Java/封装和继承' },
           ],
         },
       ],
