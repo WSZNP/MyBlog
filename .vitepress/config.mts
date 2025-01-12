@@ -24,6 +24,7 @@ export default defineConfig({
               { text: 'HTML', link: '/Note/HTML/HTML5-drag-API' },
               { text: 'CSS', link: '/Note/CSS/渐变文字' },
               { text: 'JavaScript', link: '/Note/JavaScript/传递参数' },
+              { text: 'TypeScript', link: '/Note/TypeScript/基础类型' },
               { text: 'DEMO合集', link: '/Note/前端DEMO/图片压缩' },
             ],
           },
@@ -126,6 +127,16 @@ export default defineConfig({
         {
           text: 'DEMO',
           items: [{ text: '图片压缩', link: '/Note/前端DEMO/图片压缩' }],
+        },
+      ],
+      '/Note/TypeScript/': [
+        {
+          text: 'TS基础',
+          items: [
+            { text: '基础类型', link: '/Note/TypeScript/基础类型' },
+            { text: '任意类型', link: '/Note/TypeScript/任意类型' },
+            { text: '小写vs大写类型的正确使用', link: '/Note/TypeScript/小写vs大写类型的正确使用' },
+          ],
         },
       ],
       '/Note/Java/': [
