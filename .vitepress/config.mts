@@ -135,7 +135,13 @@ export default defineConfig({
           items: [
             { text: '基础类型', link: '/Note/TypeScript/基础类型' },
             { text: '任意类型', link: '/Note/TypeScript/任意类型' },
-            { text: '小写vs大写类型的正确使用', link: '/Note/TypeScript/小写vs大写类型的正确使用' },
+            { text: '接口和对象类型', link: '/Note/TypeScript/接口和对象类型' },
+            { text: '数组类型', link: '/Note/TypeScript/数组类型' },
+            { text: '函数扩展', link: '/Note/TypeScript/函数扩展' },
+            {
+              text: '小写vs大写类型的正确使用',
+              link: '/Note/TypeScript/小写vs大写类型的正确使用',
+            },
           ],
         },
       ],
