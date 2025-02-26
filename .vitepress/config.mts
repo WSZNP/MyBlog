@@ -146,7 +146,11 @@ export default defineConfig({
             { text: 'Class类', link: '/Note/TypeScript/Class类' },
             { text: '元组类型', link: '/Note/TypeScript/元组类型' },
             { text: '枚举类型', link: '/Note/TypeScript/枚举类型' },
-            { text: '类型推论|类型别名', link: '/Note/TypeScript/类型推论|类型别名' },
+            {
+              text: '类型推论-类型别名',
+              link: '/Note/TypeScript/类型推论-类型别名',
+            },
+            { text: 'never类型', link: '/Note/TypeScript/never类型' },
             {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
