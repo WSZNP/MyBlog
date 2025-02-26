@@ -151,6 +151,7 @@ export default defineConfig({
               link: '/Note/TypeScript/类型推论-类型别名',
             },
             { text: 'never类型', link: '/Note/TypeScript/never类型' },
+            { text: 'symbol类型', link: '/Note/TypeScript/symbol类型' },
             {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
