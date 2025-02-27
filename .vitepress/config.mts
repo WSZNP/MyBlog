@@ -162,6 +162,10 @@ export default defineConfig({
               link: '/Note/TypeScript/namespace命名空间',
             },
             {
+              text: '声明文件d.ts',
+              link: '/Note/TypeScript/声明文件',
+            },
+            {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
