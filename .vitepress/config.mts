@@ -152,6 +152,7 @@ export default defineConfig({
             },
             { text: 'never类型', link: '/Note/TypeScript/never类型' },
             { text: 'symbol类型', link: '/Note/TypeScript/symbol类型' },
+            { text: '泛型', link: '/Note/TypeScript/泛型' },
             {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
