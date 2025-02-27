@@ -158,6 +158,10 @@ export default defineConfig({
               link: '/Note/TypeScript/tsconfig.json配置文件',
             },
             {
+              text: 'namespace命名空间',
+              link: '/Note/TypeScript/namespace命名空间',
+            },
+            {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
