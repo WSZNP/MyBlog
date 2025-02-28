@@ -167,6 +167,10 @@ export default defineConfig({
             },
             { text: 'Mixins混入', link: '/Note/TypeScript/Mixins混入' },
             {
+              text: '装饰器Decorator',
+              link: '/Note/TypeScript/装饰器Decorator',
+            },
+            {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
