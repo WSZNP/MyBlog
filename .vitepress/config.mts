@@ -165,6 +165,7 @@ export default defineConfig({
               text: '声明文件d.ts',
               link: '/Note/TypeScript/声明文件',
             },
+            { text: 'Mixins混入', link: '/Note/TypeScript/Mixins混入' },
             {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
