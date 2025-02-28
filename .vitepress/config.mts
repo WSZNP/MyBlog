@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '沐码编程学习-文档站',
+  title: '个人学习-文档站',
   lang: 'zh-CN',
   description: '一个文档站',
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],

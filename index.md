@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: '沐码编程学习-文档站'
+  name: '个人学习-文档站'
   text: '学习笔记'
-  tagline: 学无止境
+  tagline: 问题记录
   image:
     src: /background.png
     alt: 背景图
