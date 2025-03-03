@@ -170,6 +170,7 @@ export default defineConfig({
               text: '装饰器Decorator',
               link: '/Note/TypeScript/装饰器Decorator',
             },
+            { text: 'Map&Set', link: '/Note/TypeScript/Map&Set' },
             {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
