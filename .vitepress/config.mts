@@ -172,6 +172,10 @@ export default defineConfig({
             },
             { text: 'Map&Set', link: '/Note/TypeScript/Map&Set' },
             {
+              text: 'TS进阶用法Proxy&Reflect',
+              link: '/Note/TypeScript/TS进阶用法Proxy&Reflect',
+            },
+            {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
