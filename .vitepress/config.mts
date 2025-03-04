@@ -184,6 +184,14 @@ export default defineConfig({
               link: '/Note/TypeScript/TypeScript进阶类型兼容',
             },
             {
+              text: 'TS进阶用法-泛型工具',
+              link: '/Note/TypeScript/TS进阶用法-泛型工具',
+            },
+            {
+              text: 'TS进阶用法infer',
+              link: '/Note/TypeScript/TS进阶用法infer',
+            },
+            {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
