@@ -180,6 +180,10 @@ export default defineConfig({
               link: '/Note/TypeScript/TypeScript类型守卫',
             },
             {
+              text: 'TypeScript进阶类型兼容',
+              link: '/Note/TypeScript/TypeScript进阶类型兼容',
+            },
+            {
               text: '小写vs大写类型的正确使用',
               link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
