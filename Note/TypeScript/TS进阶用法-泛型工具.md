@@ -196,3 +196,7 @@ type CustomFn<F extends Function> = F extends (...args: any[]) => infer Res
   ? Res
   : never;
 ```
+
+## 索引访问类型
+
+![索引访问类型](/assets/images/TypeScript/TS进阶用法-泛型工具/3.jpg)

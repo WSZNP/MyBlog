@@ -172,6 +172,15 @@ export default defineConfig({
             },
             { text: 'Map&Set', link: '/Note/TypeScript/Map&Set' },
             {
+              text: '小写vs大写类型的正确使用',
+              link: '/Note/TypeScript/小写vs大写类型的正确使用',
+            },
+          ],
+        },
+        {
+          text: 'TS进阶',
+          items: [
+            {
               text: 'TS进阶用法Proxy&Reflect',
               link: '/Note/TypeScript/TS进阶用法Proxy&Reflect',
             },
@@ -190,10 +199,6 @@ export default defineConfig({
             {
               text: 'TS进阶用法infer',
               link: '/Note/TypeScript/TS进阶用法infer',
-            },
-            {
-              text: '小写vs大写类型的正确使用',
-              link: '/Note/TypeScript/小写vs大写类型的正确使用',
             },
           ],
         },
