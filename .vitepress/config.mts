@@ -43,7 +43,7 @@ export default defineConfig({
           },
         ],
       },
-      { text: '计算机网络', link: '/Note/Network/HTTPS' },
+      { text: '计算机网络', link: '/Note/Network/OSI七层网络参考模型' },
     ],
 
     sidebar: {
@@ -123,8 +123,8 @@ export default defineConfig({
               link: '/Note/Network/OSI七层网络参考模型',
             },
             {
-              text: 'TCP三次握手和四次挥手.',
-              link: '/Note/Network/TCP三次握手和四次挥手.',
+              text: 'TCP三次握手和四次挥手',
+              link: '/Note/Network/TCP三次握手和四次挥手',
             },
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
