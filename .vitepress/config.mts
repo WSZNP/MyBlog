@@ -126,6 +126,8 @@ export default defineConfig({
               text: 'TCP三次握手和四次挥手',
               link: '/Note/Network/TCP三次握手和四次挥手',
             },
+            { text: '跨域', link: '/Note/Network/跨域' },
+            { text: '重学Ajax', link: '/Note/Network/重学Ajax' },
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
