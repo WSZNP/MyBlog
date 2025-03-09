@@ -131,6 +131,7 @@ export default defineConfig({
             { text: '重学fetch', link: '/Note/Network/重学fetch' },
             { text: '重学SSE', link: '/Note/Network/重学SSE' },
             { text: 'webSocket学习', link: '/Note/Network/webSocket学习' },
+            { text: 'sendBeacon', link: '/Note/Network/sendBeacon' },
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
