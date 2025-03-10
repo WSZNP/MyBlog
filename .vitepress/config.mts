@@ -133,6 +133,7 @@ export default defineConfig({
             { text: 'webSocket学习', link: '/Note/Network/webSocket学习' },
             { text: 'sendBeacon', link: '/Note/Network/sendBeacon' },
             { text: 'TLS&SSL', link: '/Note/Network/TLS&SSL' },
+            { text: 'JWT', link: '/Note/Network/JWT' },
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
