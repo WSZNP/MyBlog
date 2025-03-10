@@ -122,6 +122,7 @@ const app = express();
 app.get('/api/sse', (req, res) => {
   res.writeHead(200, {
     'Content-Type': 'text/event-stream', //核心返回数据流
+    'Access-Control-Allow-Origin': 'http://127.0.0.1:5500',
     Connection: 'close',
   });
   const data = fs.readFileSync('./index.txt', 'utf8');
@@ -145,6 +146,7 @@ app.listen(3000, () => {
   console.log('Listening on port 3000');
 });
 ```
+
 文本数据
 
 ```text
@@ -157,14 +159,15 @@ app.listen(3000, () => {
 ## 前端调用
 
 ```js
-const sse = new EventSource('http://localhost:3000/api/sse' )
+const sse = new EventSource('http://localhost:3000/api/sse');
 
-sse.addEventListener('open', (e) => {
-    console.log(e.target)
-})
+sse.addEventListener('open', e => {
+  console.log(e.target);
+});
 //对应后端nodejs自定义的事件名lol
-sse.addEventListener('lol', (e) => {
-    console.log(e.data)
-})
+sse.addEventListener('lol', e => {
+  console.log(e.data);
+});
 ```
+
 ![重学SSE](/assets/images/Network/重学SSE/1.png)
