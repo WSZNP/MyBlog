@@ -60,58 +60,82 @@ pnpm i cors
 
 ```js
 import express from 'express';
-import jwt from 'jsonwebtoken';
 import cors from 'cors';
+import jwt from 'jsonwebtoken';
+
 const app = express();
-const secretKey = 'xmzs' //加盐
+const secretKey = 'xmzs'; //加盐
 
-app.use(express.urlencoded({ extended: false }));
+app.use(cors());
 app.use(express.json());
-app.use(cors())
+app.use(express.urlencoded({ extended: false }));
 
-let user = { name: 'admin', password: '123456', id: 1 } //模拟用户信息
+let user = {
+  id: 1,
+  name: 'admin',
+  password: '123456',
+};
 
+//1.登录 返回token用于授权
 app.post('/api/login', (req, res) => {
-    console.log(req.body)
-    if (req.body.name == user.name && req.body.password == user.password) {
-        res.json({
-            message: '登录成功',
-            code: 200,
-            token: jwt.sign({ id: user.id }, secretKey, { expiresIn: 60 * 60 * 24 }) //生成token
-        })
-    } else {
-        res.json({
-            message: '登录失败',
-            code: 400
-        })
-    }
-})
+  const { name, password } = req.body;
 
+  if (name === user.name && password === user.password) {
+    const token = jwt.sign({ id: user.id }, secretKey, { expiresIn: '1h' });
+    res.status(200).json({
+      code: 200,
+      token,
+      msg: '登录成功',
+    });
+  } else {
+    res.status(401).json({
+      code: 401,
+      msg: '用户名或密码错误',
+    });
+  }
+});
+
+// 2.列表接口，授权后可访问，否则403
 
 app.get('/api/list', (req, res) => {
-    console.log(req.headers.authorization)
-    jwt.verify(req.headers.authorization as string, secretKey, (err, data) => { //验证token
-        if (err) {
-            res.json({
-                message: 'token失效',
-                code: 403
-            })
-        } else {
-            res.json({
-                message: '获取列表成功',
-                code: 200,
-                data: [
-                    { name: '张三', age: 18 },
-                    { name: '李四', age: 20 },
-                ]
-            })
-        }
-    })
-})
+  //前端会把token存入请求头的authorization字段中，w3c要求
+  let token = req.headers.authorization || '';
+  token = token.replace('Bearer ', '');
+
+  jwt.verify(token, secretKey, (err, decoded) => {
+    if (err) {
+      res.status(403).json({
+        code: 403,
+        msg: 'token已过期',
+      });
+    } else {
+      res.status(200).json({
+        code: 200,
+        data: [
+          {
+            id: 1,
+            name: '张三',
+            age: 18,
+            sex: '男',
+            address: '北京',
+          },
+          {
+            id: 2,
+            name: '李四',
+            age: 19,
+            sex: '女',
+            address: '上海',
+          },
+        ],
+        msg: '查询列表成功',
+      });
+    }
+  });
+});
 
 app.listen(3000, () => {
-    console.log('server is running 3000');
-})
+  console.log('Server is running on port 3000');
+});
 ```
 
 在这段代码中，设置了应用使用的中间件，包括处理 URL 编码和 JSON 格式数据的中间件以及跨域资源共享（CORS）中间件。
@@ -166,8 +190,15 @@ index.html
         })
           .then(res => res.json())
           .then(res => {
-            localStorage.setItem('token', res.token);
-            location.href = './list.html';
+            if (res.code === 200) {
+              localStorage.setItem('myToken', res.token);
+              location.href = './list.html';
+            } else {
+              alert(res.msg);
+            }
+          })
+          .catch(err => {
+            console.log(err, 'err');
           });
       };
     </script>
@@ -187,16 +218,21 @@ list.html 如果没有 token 就访问不了
   </head>
 
   <body>
+    <ul></ul>
     <script>
-      console.log(localStorage.getItem('token'));
       fetch('http://localhost:3000/api/list', {
         headers: {
-          Authorization: `Bearer ${localStorage.getItem('token')}`,
+          Authorization: `Bearer ${localStorage.getItem('myToken')}`,
         },
       })
         .then(res => res.json())
         .then(res => {
           console.log(res);
+          res?.data.forEach(item => {
+            const li = document.createElement('li');
+            li.innerText = item.name;
+            document.querySelector('ul').appendChild(li);
+          });
         });
     </script>
   </body>
