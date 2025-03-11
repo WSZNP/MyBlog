@@ -135,6 +135,7 @@ export default defineConfig({
             { text: 'TLS&SSL', link: '/Note/Network/TLS&SSL' },
             { text: 'JWT', link: '/Note/Network/JWT' },
             { text: '前端的网络状态', link: '/Note/Network/前端的网络状态' },
+            { text: 'TCP实现HTTP服务', link: '/Note/Network/TCP实现HTTP服务' },
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
