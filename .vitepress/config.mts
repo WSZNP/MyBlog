@@ -134,6 +134,7 @@ export default defineConfig({
             { text: 'sendBeacon', link: '/Note/Network/sendBeacon' },
             { text: 'TLS&SSL', link: '/Note/Network/TLS&SSL' },
             { text: 'JWT', link: '/Note/Network/JWT' },
+            { text: '前端的网络状态', link: '/Note/Network/前端的网络状态' },
             { text: 'HTTPS', link: '/Note/Network/HTTPS' },
             { text: 'DNS查询流程', link: '/Note/Network/DNS查询流程' },
           ],
