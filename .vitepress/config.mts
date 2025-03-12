@@ -39,7 +39,10 @@ export default defineConfig({
         items: [
           {
             text: '后端',
-            items: [{ text: 'Java', link: '/Note/Java/简介' }],
+            items: [
+              { text: 'Node', link: '/Note/Node/Packagejson' },
+              { text: 'Java', link: '/Note/Java/简介' },
+            ],
           },
         ],
       },
@@ -233,6 +236,15 @@ export default defineConfig({
             { text: '方法', link: '/Note/Java/方法' },
             { text: '初识面向对象', link: '/Note/Java/初识面向对象' },
             { text: '封装和继承', link: '/Note/Java/封装和继承' },
+          ],
+        },
+      ],
+      'Note/Node/': [
+        {
+          text: 'Node基础',
+          items: [
+            { text: 'Package.json', link: '/Note/Node/Packagejson' },
+            { text: 'npm install原理', link: '/Note/Node/install原理' },
           ],
         },
       ],
