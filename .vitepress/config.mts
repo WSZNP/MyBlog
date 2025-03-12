@@ -253,6 +253,7 @@ export default defineConfig({
           items: [
             { text: 'Package.json', link: '/Note/Node/Packagejson' },
             { text: 'npm install原理', link: '/Note/Node/install原理' },
+            { text: 'npm run原理', link: '/Note/Node/run原理' },
           ],
         },
       ],
