@@ -4,6 +4,8 @@ import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import Layout from './Layout.vue';
 import './style.css';
+import '@fancyapps/ui/dist/fancybox.css';
+import '@fancyapps/ui/dist/fancybox.umd.js';
 
 export default {
   extends: DefaultTheme,

@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-
+import mdItCustomAttrs from 'markdown-it-custom-attrs';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: '个人学习-文档站',
@@ -7,6 +7,14 @@ export default defineConfig({
   description: '一个文档站',
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   base: '/MyBlog/',
+  markdown: {
+    config(md) {
+      // use more markdown-it plugins!
+      md.use(mdItCustomAttrs, 'image', {
+        'data-fancybox': 'gallery',
+      });
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
