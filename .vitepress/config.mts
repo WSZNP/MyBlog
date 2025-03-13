@@ -257,6 +257,7 @@ export default defineConfig({
             { text: 'npx', link: '/Note/Node/npx' },
             { text: 'npm搭建私服', link: '/Note/Node/npm搭建私服' },
             { text: '模块化', link: '/Note/Node/模块化' },
+            { text: '全局变量', link: '/Note/Node/全局变量' },
           ],
         },
       ],
