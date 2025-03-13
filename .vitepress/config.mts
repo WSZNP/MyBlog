@@ -254,6 +254,8 @@ export default defineConfig({
             { text: 'Package.json', link: '/Note/Node/Packagejson' },
             { text: 'npm install原理', link: '/Note/Node/install原理' },
             { text: 'npm run原理', link: '/Note/Node/run原理' },
+            { text: 'npx', link: '/Note/Node/npx' },
+            { text: 'npm搭建私服', link: '/Note/Node/npm搭建私服' },
           ],
         },
       ],
