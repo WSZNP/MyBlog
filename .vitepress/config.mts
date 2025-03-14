@@ -262,6 +262,7 @@ export default defineConfig({
             { text: 'path', link: '/Note/Node/path' },
             { text: 'os', link: '/Note/Node/os' },
             { text: 'process', link: '/Note/Node/process' },
+            { text: 'child_process', link: '/Note/Node/child_process' },
           ],
         },
       ],
