@@ -258,6 +258,7 @@ export default defineConfig({
             { text: 'npm搭建私服', link: '/Note/Node/npm搭建私服' },
             { text: '模块化', link: '/Note/Node/模块化' },
             { text: '全局变量', link: '/Note/Node/全局变量' },
+            { text: 'CSR SSR SEO', link: '/Note/Node/CSR,SSR,SEO' },
           ],
         },
       ],
