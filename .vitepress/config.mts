@@ -261,6 +261,7 @@ export default defineConfig({
             { text: 'CSR SSR SEO', link: '/Note/Node/CSR,SSR,SEO' },
             { text: 'path', link: '/Note/Node/path' },
             { text: 'os', link: '/Note/Node/os' },
+            { text: 'process', link: '/Note/Node/process' },
           ],
         },
       ],
