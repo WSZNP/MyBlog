@@ -92,9 +92,13 @@ node test.js
 使用 execFile 执行这个
 
 ```js
-execFile(path.resolve(process.cwd(), './bat.cmd'), null, (err, stdout) => {
-  console.log(stdout.toString());
-});
+execFile(
+  path.join(__dirname, './bat.cmd'),
+  { shell: true },
+  (error, stdout) => {
+    console.log(stdout.toString());
+  }
+);
 ```
 
 ![execFile](/assets/images/Node/child_process/1.webp)
