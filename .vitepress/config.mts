@@ -267,6 +267,7 @@ export default defineConfig({
             { text: 'events', link: '/Note/Node/events' },
             { text: 'util', link: '/Note/Node/util' },
             { text: 'pngquant', link: '/Note/Node/pngquant' },
+            { text: 'fs', link: '/Note/Node/fs' },
           ],
         },
       ],
