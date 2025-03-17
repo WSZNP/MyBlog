@@ -265,6 +265,7 @@ export default defineConfig({
             { text: 'child_process', link: '/Note/Node/child_process' },
             { text: 'ffmpeg', link: '/Note/Node/ffmpeg' },
             { text: 'events', link: '/Note/Node/events' },
+            { text: 'util', link: '/Note/Node/util' },
           ],
         },
       ],
