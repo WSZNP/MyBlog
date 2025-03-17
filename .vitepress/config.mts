@@ -266,6 +266,7 @@ export default defineConfig({
             { text: 'ffmpeg', link: '/Note/Node/ffmpeg' },
             { text: 'events', link: '/Note/Node/events' },
             { text: 'util', link: '/Note/Node/util' },
+            { text: 'pngquant', link: '/Note/Node/pngquant' },
           ],
         },
       ],
