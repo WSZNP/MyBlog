@@ -268,6 +268,7 @@ export default defineConfig({
             { text: 'util', link: '/Note/Node/util' },
             { text: 'pngquant', link: '/Note/Node/pngquant' },
             { text: 'fs', link: '/Note/Node/fs' },
+            { text: 'crypto', link: '/Note/Node/crypto' },
           ],
         },
       ],
