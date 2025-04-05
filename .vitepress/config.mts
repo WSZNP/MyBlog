@@ -38,7 +38,10 @@ export default defineConfig({
           },
           {
             text: '框架',
-            items: [{ text: 'Vue', link: '/Note/Vue/Vue2与Vue3的区别' }],
+            items: [
+              { text: 'Vue', link: '/Note/Vue/Vue2与Vue3的区别' },
+              { text: 'React', link: '/Note/React/React开发环境搭建' },
+            ],
           },
         ],
       },
@@ -122,6 +125,21 @@ export default defineConfig({
           text: 'Vue',
           items: [
             { text: 'Vue2与Vue3的区别', link: '/Note/Vue/Vue2与Vue3的区别' },
+          ],
+        },
+      ],
+      '/Note/React/': [
+        {
+          text: '入门',
+          items: [
+            {
+              text: 'React开发环境搭建',
+              link: '/Note/React/React开发环境搭建',
+            },
+            {
+              text: 'tsx语法入门',
+              link: '/Note/React/tsx语法入门',
+            },
           ],
         },
       ],
