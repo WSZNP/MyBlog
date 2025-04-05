@@ -142,6 +142,10 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: '工具',
+          items: [{ text: 'Babel', link: '/Note/React/Babel' }],
+        },
       ],
       '/Note/Network/': [
         {
