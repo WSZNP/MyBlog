@@ -144,7 +144,17 @@ export default defineConfig({
         },
         {
           text: '工具',
-          items: [{ text: 'Babel', link: '/Note/React/Babel' }],
+          items: [
+            { text: 'Babel', link: '/Note/React/Babel' },
+            { text: 'SWC', link: '/Note/React/SWC' },
+          ],
+        },
+        {
+          text: '原理',
+          items: [
+            { text: 'vdom fiber diff', link: '/Note/React/虚拟DOM' },
+            { text: 'requestidlecallback', link: '/Note/React/requestidlecallback' },
+          ],
         },
       ],
       '/Note/Network/': [
