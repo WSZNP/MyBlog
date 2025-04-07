@@ -153,7 +153,24 @@ export default defineConfig({
           text: '原理',
           items: [
             { text: 'vdom fiber diff', link: '/Note/React/虚拟DOM' },
-            { text: 'requestidlecallback', link: '/Note/React/requestidlecallback' },
+            {
+              text: 'requestidlecallback',
+              link: '/Note/React/requestidlecallback',
+            },
+          ],
+        },
+        {
+          text: 'Hooks',
+          items: [
+            {
+              text: '数据驱动',
+              items: [
+                {
+                  text: 'useState',
+                  link: '/Note/React/useState',
+                },
+              ],
+            },
           ],
         },
       ],
