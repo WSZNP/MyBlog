@@ -165,10 +165,8 @@ export default defineConfig({
             {
               text: '数据驱动',
               items: [
-                {
-                  text: 'useState',
-                  link: '/Note/React/useState',
-                },
+                { text: 'useState', link: '/Note/React/useState' },
+                { text: 'useReducer', link: '/Note/React/useReducer' },
               ],
             },
           ],
