@@ -167,6 +167,10 @@ export default defineConfig({
               items: [
                 { text: 'useState', link: '/Note/React/useState' },
                 { text: 'useReducer', link: '/Note/React/useReducer' },
+                {
+                  text: 'useSyncExternalStore',
+                  link: '/Note/React/useSyncExternalStore',
+                },
               ],
             },
           ],
