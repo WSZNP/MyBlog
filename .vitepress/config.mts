@@ -172,7 +172,17 @@ export default defineConfig({
                   link: '/Note/React/useSyncExternalStore',
                 },
                 { text: 'useTransition', link: '/Note/React/useTransition' },
-                { text: 'useDeferredValue', link: '/Note/React/useDeferredValue' },
+                {
+                  text: 'useDeferredValue',
+                  link: '/Note/React/useDeferredValue',
+                },
+              ],
+            },
+            {
+              text: '副作用',
+              items: [
+                { text: 'useEffect', link: '/Note/React/useEffect' },
+                { text: 'useLayoutEffect', link: '/Note/React/useLayoutEffect' },
               ],
             },
           ],
