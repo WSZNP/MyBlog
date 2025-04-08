@@ -71,9 +71,8 @@ const viteMockServer = (): Plugin => {
 export default defineConfig({
   plugins: [react(), viteMockServer()],
 });
+//编写完成访问我们的接口 http://localhost:5174/api/list?keyWord=xx 5174 为默认端口，可以自行更改
 ```
-
-编写完成访问我们的接口 http://localhost:5174/api/list?keyWord=xx 5174 为默认端口，可以自行更改
 
 ### 前端
 
