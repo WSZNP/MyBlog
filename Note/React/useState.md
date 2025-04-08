@@ -27,6 +27,15 @@ const Card = () => {
   let [index, setIndex] = useState(0);
   let [name, setName] = useState('小满');
   let [arr, setArr] = useState([1, 2, 3]);
+  //也可以是一个函数
+  const [obj, setObj] = useState(() => {
+    return {
+      name: '我测',
+      age: 18,
+      sex: '男',
+      hobby: ['吃饭', '睡觉', '打豆豆'],
+    };
+  });
 };
 ```
 

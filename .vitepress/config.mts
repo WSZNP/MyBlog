@@ -172,6 +172,7 @@ export default defineConfig({
                   link: '/Note/React/useSyncExternalStore',
                 },
                 { text: 'useTransition', link: '/Note/React/useTransition' },
+                { text: 'useDeferredValue', link: '/Note/React/useDeferredValue' },
               ],
             },
           ],
