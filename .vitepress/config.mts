@@ -182,7 +182,17 @@ export default defineConfig({
               text: '副作用',
               items: [
                 { text: 'useEffect', link: '/Note/React/useEffect' },
-                { text: 'useLayoutEffect', link: '/Note/React/useLayoutEffect' },
+                {
+                  text: 'useLayoutEffect',
+                  link: '/Note/React/useLayoutEffect',
+                },
+              ],
+            },
+            {
+              text: '状态传递',
+              items: [
+                { text: 'useRef', link: '/Note/React/useRef' },
+                { text: 'useImperativeHandle', link: '/Note/React/useImperativeHandle' },
               ],
             },
           ],
