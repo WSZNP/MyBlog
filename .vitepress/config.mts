@@ -14,6 +14,7 @@ export default defineConfig({
         'data-fancybox': 'gallery',
       });
     },
+    lineNumbers: true,
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -192,7 +193,11 @@ export default defineConfig({
               text: '状态传递',
               items: [
                 { text: 'useRef', link: '/Note/React/useRef' },
-                { text: 'useImperativeHandle', link: '/Note/React/useImperativeHandle' },
+                {
+                  text: 'useImperativeHandle',
+                  link: '/Note/React/useImperativeHandle',
+                },
+                { text: 'useContext', link: '/Note/React/useContext' },
               ],
             },
           ],
