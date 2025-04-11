@@ -165,6 +165,7 @@ export default defineConfig({
           items: [
             { text: '认识组件', link: '/Note/React/认识组件' },
             { text: '组件通信', link: '/Note/React/组件通信' },
+            { text: '受控组件', link: '/Note/React/受控组件' },
           ],
         },
         {
