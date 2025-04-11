@@ -200,6 +200,20 @@ export default defineConfig({
                 { text: 'useContext', link: '/Note/React/useContext' },
               ],
             },
+            {
+              text: '状态派生',
+              items: [
+                { text: 'useMemo', link: '/Note/React/useMemo' },
+                { text: 'useCallback', link: '/Note/React/useCallback' },
+              ],
+            },
+            {
+              text: '工具Hooks',
+              items: [
+                { text: 'useDebugValue', link: '/Note/React/useDebugValue' },
+                { text: 'useId', link: '/Note/React/useId' },
+              ],
+            },
           ],
         },
       ],
