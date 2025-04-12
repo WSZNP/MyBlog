@@ -171,6 +171,13 @@ export default defineConfig({
           ],
         },
         {
+          text: 'CSS方案',
+          items: [
+            { text: 'css modules ', link: '/Note/React/cssModules' },
+            { text: 'css in js ', link: '/Note/React/cssinJs' },
+          ],
+        },
+        {
           text: 'Hooks',
           items: [
             {
