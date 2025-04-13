@@ -168,13 +168,15 @@ export default defineConfig({
             { text: '受控组件', link: '/Note/React/受控组件' },
             { text: '传送组件', link: '/Note/React/传送组件' },
             { text: '异步组件', link: '/Note/React/异步组件' },
+            { text: '组件实战', link: '/Note/React/组件实战' },
           ],
         },
         {
           text: 'CSS方案',
           items: [
             { text: 'css modules ', link: '/Note/React/cssModules' },
-            { text: 'css in js ', link: '/Note/React/cssinJs' },
+            { text: 'css in js', link: '/Note/React/cssinJs' },
+            { text: 'css 原子化', link: '/Note/React/css原子化' },
           ],
         },
         {
