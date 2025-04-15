@@ -235,6 +235,19 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text:'Router',
+          items:[
+            {
+              text:'基本使用',
+              items:[
+                { text:'路由安装', link:'/Note/React/路由安装' },
+                { text:'路由模式', link:'/Note/React/路由模式' },
+                { text:'路由', link:'/Note/React/路由' },
+              ]
+            }
+          ]
+        }
       ],
       '/Note/Network/': [
         {
