@@ -38,9 +38,6 @@
 package com.atguigu.test2;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 9:43
  *  人类：实现模拟饮水机接水的效果
  *
  *  static修饰属性，称之为静态属性，也叫静态变量，也叫类变量
@@ -105,9 +102,6 @@ public class Person {
 package com.atguigu.test2;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 9:56
  *  静态属性：本类中直接访问  其他类通过类名加点访问
  *  静态属性推荐使用类名加点访问 因为静态属性不属于任何对象 不推荐使用对象名加点的方式访问
  */
@@ -157,9 +151,6 @@ public class Student {
 package com.atguigu.test3;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 11:05
  *  静态方法：本类中直接调用 其他类通过类名加点调用
  *
  *  静态方法 不同于静态属性 因为方法只有调用的过程 调用就会进栈
@@ -225,9 +216,6 @@ class Test{
 package com.atguigu.test3;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 11:24
  *  static修饰代码块：随着JVM加载类而执行 多个静态代码块按照书写顺序执行 每个只执行一次 因为类只加载一次
  *
  *  什么时候会加载类？
@@ -291,9 +279,6 @@ public class TestStaticCode {
 package com.atguigu.test4;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 14:05
  *  模拟实现选民投票过程：一群选民进行投票，每个选民只允许投一次票，
  *  并且当投票总数达到100时，就停止投票
  */
@@ -367,9 +352,6 @@ public class Voter {
 package com.atguigu.test5;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:18
  *  宠物父类：
  *  父类中书写各个子类共有的属性 和 方法
  *  子类中书写独有的属性 和 方法
@@ -415,9 +397,6 @@ public class Pet {
 package com.atguigu.test5;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:13
  *  狗狗类：
  *      名字 健康值 亲密值 品种
  *      打印狗狗信息
@@ -461,9 +440,6 @@ public class Dog extends Pet {
 package com.atguigu.test5;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:13
  *  企鹅类：
  *      姓名 健康值 亲密值 性别
  *      打印企鹅信息
@@ -506,9 +482,6 @@ package com.atguigu.test7;
 
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 15:14
  *  名字 年龄
  *  直接打印一个对象 相当于调用此对象的toString方法 toString方法从顶层父类Object类中继承而来
  *  我们在实际开发中通常需要重写toString方法 用于将本类中的属性名 和 属性值 进行拼接 以方便直接打印对象
@@ -585,9 +558,6 @@ public class Student {
 package com.atguigu.test1;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 9:44
  *  模拟String类书写equals方法
  */
 public class MyString {
@@ -629,9 +599,6 @@ public class MyString {
 package com.atguigu.test1;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 9:23
  *  equals()方法：比较两个对象是否为同一个对象(比较地址)
  *  面试题：==和equals的区别？
  *      ==比较基本数据类型 比较值
@@ -733,9 +700,6 @@ public class Person {
 package com.atguigu.test3;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 9:23
  * 人类
  *  什么是hashCode(哈希值) ？
  *      hash值是根据杂凑算法所计算出来的一个数值
@@ -844,9 +808,6 @@ public class Person {
 package com.atguigu.test3;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 11:36
  *  为什么计算hashCode要使用31作为权重
  *  1.因为JDK也使用31
  *  2.因为31是一个特殊的质数 任何数乘以31 等于这个数左移5位 减去这个数 本身
@@ -875,9 +836,6 @@ package com.atguigu.test8;
 import java.util.Arrays;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 15:57
  *  万物皆对象
  *  自定义类型的属性  和 自定义类型的数组属性
  */
@@ -936,9 +894,6 @@ public class Student {
 package com.atguigu.test8;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 16:13
  *  爱好类 爱好类型 爱好名称 爱好场地 ……
  */
 public class Hobby {
@@ -976,9 +931,6 @@ public class Hobby {
 package com.atguigu.test8;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 16:02
  *  地址类
  *      省份
  *      城市
@@ -1050,11 +1002,6 @@ public class Address {
 ```java
 package com.atguigu.test8;
 
-/**
- * @author WHD
- * @description TODO
- * @date 2023/8/8 16:06
- */
 public class TestStudent {
     public static void main(String[] args) {
         Student stu1 = new Student();
@@ -1155,9 +1102,6 @@ public class TestStudent {
 package com.atguigu.test4;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:18
  *  宠物父类：
  *  父类中书写各个子类共有的属性 和 方法
  *  子类中书写独有的属性 和 方法
@@ -1216,9 +1160,6 @@ public class Pet {
 package com.atguigu.test4;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:13
  *  狗狗类：
  *      名字 健康值 亲密值 品种
  *      打印狗狗信息
@@ -1260,9 +1201,6 @@ public class Dog extends Pet {
 package com.atguigu.test4;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:13
  *  企鹅类：
  *      姓名 健康值 亲密值 性别
  *      打印企鹅信息
@@ -1304,9 +1242,6 @@ public class Penguin extends Pet {
 package com.atguigu.test4;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 14:23
  *  主人类
  *      1.带宠物去看病
  */
@@ -1346,9 +1281,6 @@ public class Master {
 package com.atguigu.test5;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 14:23
  *  主人类
  *      1.带宠物去看病
  *      2.抽奖送宠物
@@ -1400,9 +1332,6 @@ public class Master {
 package com.atguigu.test5;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 15:14
  *  向上转型
  *        1.父类作为形参，子类作为实参
  *        2.父类作为声明返回值，实际返回值为子类类型
@@ -1430,9 +1359,6 @@ public class TestPet {
 package com.atguigu.test5;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 15:14
  *  向上转型
  *        1.父类作为形参，子类作为实参
  *        2.父类作为声明返回值，实际返回值为子类类型
@@ -1476,9 +1402,6 @@ public class TestPet {
 package com.atguigu.test6;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:18
  *  宠物父类：
  *  父类中书写各个子类共有的属性 和 方法
  *  子类中书写独有的属性 和 方法
@@ -1537,9 +1460,6 @@ public class Pet {
 package com.atguigu.test6;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:13
  *  狗狗类：
  *      名字 健康值 亲密值 品种
  *      打印狗狗信息
@@ -1587,9 +1507,6 @@ public class Dog extends Pet {
 package com.atguigu.test6;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/7 14:13
  *  企鹅类：
  *      姓名 健康值 亲密值 性别
  *      打印企鹅信息
@@ -1631,9 +1548,6 @@ public class Penguin extends Pet {
 package com.atguigu.test6;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 15:35
  *  父类引用指向子类对象属于向上转型，此时通过父类引用，
  *  可以访问的是子类重写或者继承父类的方法
  *  不能访问子类独有的方法 如需访问 则必须向下转型
@@ -1690,9 +1604,6 @@ package com.atguigu.test7;
 import com.atguigu.test6.Dog;
 
 /**
- * @author WHD
- * @description TODO
- * @date 2023/8/9 9:23
  *  人类
  *  场景：如果现在有这样的"两个人" 这"两个人"名字和身份证号都相同 实际为同一个人
  *  那么在程序中就表现为两个对象 所以我们应该重写equals方法 将两个对象的比较结果为true
@@ -1751,3 +1662,53 @@ public class Person {
 }
 
 ```
+
+### 5. 多态实现原理
+
+> 多态原理：是由虚方法和动态绑定来实现的
+
+> 虚方法(Virtual Method)和非虚方法(Non Virtual Method)
+
+> ​ 虚方法是指在编译期间 无法确定方法版本信息的这一类方法
+>
+> ​ 可以被子类重写(可以被子类继承的实例方法)的方法就属于虚方法
+>
+> ​ 因为可以被子类重写的方法 会在多个子类中进行重写 而 new 对象的操作是在程序运行期间才执行的
+>
+> ​ 所以在编译阶段 唯独可以确定的是等号左侧的类型 而不能确定的是等号右侧的对象
+>
+> ​ 虚方法调用底层是通过 JVM 指令：#invokevritual
+
+> ​ 非虚方法是指在编译期间可以确定方法版本信息的这一类方法
+
+> ​ 比如：静态方法 private 修饰的方法 final 修饰的方法 构造方法
+>
+> ​ 非虚方法调用底层是通过 JVM 指令：#invokespecial
+
+> 动态绑定和静态绑定
+>
+> ​ 虚方法属于动态绑定：因为在编译期间无法确定方法的版本信息 所以必须在程序运行过程中才确定调用哪 个类中的方法，所以虚方法属于动态绑定
+>
+> ​ 非虚方法属于静态绑定：在编译期间就可以确定方法的版本信息 实现静态绑定
+
+> 方法覆盖(重写) 和 方法隐藏：
+>
+> ​ 实例方法属于覆盖，即重写，也就是子类重写父类方法以后通过子类对象再无法访问父类中被覆盖的方法
+>
+> ​ 静态方法属于隐藏，子类可以写同名同参数同返回值的静态方法，只是对父类相同静态方法的隐藏，无法覆盖
+>
+> ​ 因为通过指向对象的父类引用还可以继续访问父类中的静态方法
+
+> 关于方法表：方法表是一个存在于类信息文件中的数组，保存当前类中的方法、继承以及重写的方法
+>
+> 当我们访问某一个方法时 先从本类中查找 本类中没有 继续向父类中查找 直到找打为止
+
+![](/assets/images/Java/static关键字和方法重写/方法表.png)
+
+### 6. java 命令
+
+> javap -verbose Note.class 查看当前 class 文件详细信息
+>
+> this 被设计为了一个隐式参数，存在于本类中的所有实例方法和构造方法中，所以我们在实例方法以及构造方法中才可以使用
+>
+> 静态方法中没有添加此隐式参数 所以无法使用 this 以及 super
