@@ -370,6 +370,7 @@ export default defineConfig({
             { text: '封装和继承', link: '/Note/Java/封装和继承' },
             { text: 'static关键字和方法重写', link: '/Note/Java/static关键字和方法重写' },
             { text: '抽象类和接口', link: '/Note/Java/抽象类和接口' },
+            { text: '异常', link: '/Note/Java/异常' },
           ],
         },
       ],
