@@ -666,7 +666,7 @@ public class Person {
 
 
         System.out.println(p1 == p2); // false
-        System.out.println(p1.equals(p2)); // false
+        System.out.println(p1.equals(p2)); // true
 
 
     }
