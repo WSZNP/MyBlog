@@ -383,6 +383,13 @@ export default defineConfig({
             { text: 'Java9-17新特性', link: '/Note/Java/Java9-17新特性' },
           ],
         },
+        {
+          text: 'JavaWeb',
+          items: [
+            { text: 'Maven基础', link: '/Note/Java/Maven基础' },
+            { text: '基础知识', link: '/Note/Java/基础知识' },
+          ]
+        }
       ],
       'Note/Node/': [
         {
