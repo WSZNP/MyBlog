@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+// @ts-ignore
 import mdItCustomAttrs from 'markdown-it-custom-attrs';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -388,6 +389,8 @@ export default defineConfig({
           items: [
             { text: 'Maven基础', link: '/Note/Java/Maven基础' },
             { text: '基础知识', link: '/Note/Java/基础知识' },
+            { text: 'IOC+DI', link: '/Note/Java/IOC+DI' },
+            { text: '数据库', link: '/Note/Java/数据库' },
           ]
         }
       ],

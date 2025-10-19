@@ -1577,7 +1577,7 @@ public class TestPet {
 
         Pet p1 = new Pet();
 
-        if(p1 instanceof  Dog){
+        if(p1 instanceof  Dog){ // ❌ 这段代码永远不会成立 p1是动物父类 相当于问动物是否是狗
             Dog dog1 = (Dog)p1;
             System.out.println("dog1 = " + dog1);
         }else{
