@@ -391,6 +391,8 @@ export default defineConfig({
             { text: '基础知识', link: '/Note/Java/基础知识' },
             { text: 'IOC+DI', link: '/Note/Java/IOC+DI' },
             { text: '数据库', link: '/Note/Java/数据库' },
+            { text: 'java代码操作数据库', link: '/Note/Java/java代码操作数据库' },
+            { text: '后端Web实战(部门管理开发)', link: '/Note/Java/后端Web实战(部门管理开发)' },
           ]
         }
       ],
