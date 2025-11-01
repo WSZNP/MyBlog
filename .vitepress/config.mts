@@ -3,6 +3,10 @@ import { defineConfig } from 'vitepress';
 import mdItCustomAttrs from 'markdown-it-custom-attrs';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks:[
+    // 忽略所有 localhost 链接
+     /^https?:\/\/localhost/,
+  ],
   title: '个人学习-文档站',
   lang: 'zh-CN',
   description: '一个文档站',
