@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress';
 import mdItCustomAttrs from 'markdown-it-custom-attrs';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  ignoreDeadLinks:[
+  ignoreDeadLinks: [
     // 忽略所有 localhost 链接
-     /^https?:\/\/localhost/,
+    /^https?:\/\/localhost/,
   ],
   title: '个人学习-文档站',
   lang: 'zh-CN',
@@ -241,18 +241,18 @@ export default defineConfig({
           ],
         },
         {
-          text:'Router',
-          items:[
+          text: 'Router',
+          items: [
             {
-              text:'基本使用',
-              items:[
-                { text:'路由安装', link:'/Note/React/路由安装' },
-                { text:'路由模式', link:'/Note/React/路由模式' },
-                { text:'路由', link:'/Note/React/路由' },
-              ]
-            }
-          ]
-        }
+              text: '基本使用',
+              items: [
+                { text: '路由安装', link: '/Note/React/路由安装' },
+                { text: '路由模式', link: '/Note/React/路由模式' },
+                { text: '路由', link: '/Note/React/路由' },
+              ],
+            },
+          ],
+        },
       ],
       '/Note/Network/': [
         {
@@ -374,7 +374,10 @@ export default defineConfig({
             { text: '初识面向对象', link: '/Note/Java/初识面向对象' },
             { text: 'String和ArrayList', link: '/Note/Java/String和ArrayList' },
             { text: '封装和继承', link: '/Note/Java/封装和继承' },
-            { text: 'static关键字和方法重写', link: '/Note/Java/static关键字和方法重写' },
+            {
+              text: 'static关键字和方法重写',
+              link: '/Note/Java/static关键字和方法重写',
+            },
             { text: '抽象类和接口', link: '/Note/Java/抽象类和接口' },
             { text: '异常', link: '/Note/Java/异常' },
             { text: '常用类', link: '/Note/Java/常用类' },
@@ -395,10 +398,29 @@ export default defineConfig({
             { text: '基础知识', link: '/Note/Java/基础知识' },
             { text: 'IOC+DI', link: '/Note/Java/IOC+DI' },
             { text: '数据库', link: '/Note/Java/数据库' },
-            { text: 'java代码操作数据库', link: '/Note/Java/java代码操作数据库' },
-            { text: '后端Web实战(部门管理开发)', link: '/Note/Java/后端Web实战(部门管理开发)' },
-          ]
-        }
+            {
+              text: 'java代码操作数据库',
+              link: '/Note/Java/java代码操作数据库',
+            },
+            {
+              text: '后端Web实战(员工管理开发)',
+              items: [
+                {
+                  text: '后端Web实战(部门管理开发)',
+                  link: '/Note/Java/后端Web实战(部门管理开发)',
+                },
+                {
+                  text: '后端Web实战(多表操作&员工列表查询)',
+                  link: '/Note/Java/后端Web实战(多表操作&员工列表查询)',
+                },
+                {
+                  text: '后端Web实战(员工新增)',
+                  link: '/Note/Java/后端Web实战(员工新增)',
+                },
+              ],
+            },
+          ],
+        },
       ],
       'Note/Node/': [
         {

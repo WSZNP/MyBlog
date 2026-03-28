@@ -99,7 +99,7 @@ Web 开发的基础知识 ，包括 Tomcat、Servlet、HTTP 协议等，我们�
 
 **传统 URL 风格如下：**
 
-```url
+```txt
 http://localhost:8080/user/getById?id=1     GET：查询id为1的用户
 http://localhost:8080/user/saveUser         POST：新增用户
 http://localhost:8080/user/updateUser       POST：修改用户
