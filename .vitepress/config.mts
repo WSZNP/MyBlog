@@ -403,7 +403,7 @@ export default defineConfig({
               link: '/Note/Java/java代码操作数据库',
             },
             {
-              text: '后端Web实战(员工管理开发)',
+              text: '后端Web实战',
               items: [
                 {
                   text: '后端Web实战(部门管理开发)',
@@ -416,6 +416,10 @@ export default defineConfig({
                 {
                   text: '后端Web实战(员工新增)',
                   link: '/Note/Java/后端Web实战(员工新增)',
+                },
+                {
+                  text: '后端Web实战(登录认证)',
+                  link: '/Note/Java/后端Web实战(登录认证)',
                 },
               ],
             },
