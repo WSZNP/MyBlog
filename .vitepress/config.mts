@@ -421,6 +421,10 @@ export default defineConfig({
                   text: '后端Web实战(登录认证)',
                   link: '/Note/Java/后端Web实战(登录认证)',
                 },
+                {
+                  text: '后端Web实战(AOP)',
+                  link: '/Note/Java/后端Web实战(AOP)',
+                },
               ],
             },
           ],
