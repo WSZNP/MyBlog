@@ -1027,7 +1027,7 @@ SpringAOP的相关知识我们就已经全部学习完毕了。最后我们要�
 
 **2.1). 数据表**
 
-```mysql
+```txt
 -- 操作日志表
 create table operate_log(
 		id int unsigned primary key auto_increment comment 'ID',
