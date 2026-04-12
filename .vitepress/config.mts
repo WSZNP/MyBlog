@@ -425,14 +425,22 @@ export default defineConfig({
                   text: '后端Web实战(AOP)',
                   link: '/Note/Java/后端Web实战(AOP)',
                 },
-                 {
+                {
                   text: '后端Web原理(SpringBoot原理)',
                   link: '/Note/Java/后端Web原理(SpringBoot原理)',
+                },
+                {
+                  text: '后端Web开发-Maven高级',
+                  link: '/Note/Java/后端Web开发-Maven高级',
                 },
               ],
             },
           ],
         },
+        {
+          text:'Linux',
+          link:'/Note/Java/Linux'
+        }
       ],
       'Note/Node/': [
         {
