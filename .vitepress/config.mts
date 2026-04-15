@@ -438,9 +438,13 @@ export default defineConfig({
           ],
         },
         {
-          text:'Linux',
-          link:'/Note/Java/Linux'
-        }
+          text: 'Linux',
+          link: '/Note/Java/Linux',
+        },
+        {
+          text: 'Git',
+          link: '/Note/Java/Git',
+        },
       ],
       'Note/Node/': [
         {
