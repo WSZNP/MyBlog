@@ -445,6 +445,15 @@ export default defineConfig({
           text: 'Git',
           link: '/Note/Java/Git',
         },
+        {
+          text: '苍穹外卖',
+          items: [
+            {
+              text: '基础搭建',
+              link: '/Note/Java/苍穹外卖/基础搭建',
+            },
+          ],
+        },
       ],
       'Note/Node/': [
         {

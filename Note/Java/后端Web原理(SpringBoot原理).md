@@ -412,7 +412,7 @@ public class DeptController {
 
 那么我们应该怎样使用并定义第三方的bean呢？
 
-- 如果要管理的bean对象来自于第三方（不是自定义的），是无法用@Component 及衍生注解声明bean的，就需要用到**@Bean**注解。
+- 如果要管理的bean对象来自于第三方（不是自定义的），是无法用@Component 及衍生注解声明bean的，就需要用到 `@Bean` 注解。
 
 **解决方案1：在启动类上添加@Bean标识的方法**
 
