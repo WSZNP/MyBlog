@@ -11,7 +11,7 @@ export default defineConfig({
   lang: 'zh-CN',
   description: '一个文档站',
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
-  base: '/MyBlog/',
+  base: '/',
   markdown: {
     config(md) {
       // use more markdown-it plugins!
@@ -451,6 +451,10 @@ export default defineConfig({
             {
               text: '基础搭建',
               link: '/Note/Java/苍穹外卖/基础搭建',
+            },
+                 {
+              text: 'Redis',
+              link: '/Note/Java/苍穹外卖/Redis',
             },
           ],
         },
