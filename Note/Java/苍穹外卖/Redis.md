@@ -606,7 +606,7 @@ public class SpringDataRedisTest {
 - 管理端查询营业状态
 - 用户端查询营业状态
 
-**注：**从技术层面分析，其实管理端和用户端查询营业状态时，可通过一个接口去实现即可。因为营业状态是一致的。但是，本项目约定：
+**注：** 从技术层面分析，其实管理端和用户端查询营业状态时，可通过一个接口去实现即可。因为营业状态是一致的。但是，本项目约定：
 
 - **管理端**发出的请求，统一使用/admin作为前缀。
 - **用户端**发出的请求，统一使用/user作为前缀。
@@ -633,7 +633,7 @@ public class SpringDataRedisTest {
 
 <img src="/assets/images/Java/苍穹外卖/Redis/image-20221130220037713.png" alt="image-20221130220037713" style="zoom:50%;" />
 
-**约定：**1表示营业 0表示打烊
+**约定：** 1表示营业 0表示打烊
 
 ### 5.2 代码开发
 
@@ -747,9 +747,9 @@ public class ShopController {
 
 #### 5.3.1 接口文档测试
 
-**启动服务：**访问http://localhost:8080/doc.html，打开店铺相关接口
+**启动服务：** 访问http://localhost:8080/doc.html，打开店铺相关接口
 
-**注意：**使用admin用户登录重新获取token，防止token失效。
+**注意：** 使用admin用户登录重新获取token，防止token失效。
 
 **设置营业状态：**
 

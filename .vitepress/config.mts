@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress';
-// @ts-ignore
-import mdItCustomAttrs from 'markdown-it-custom-attrs';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: [
@@ -13,12 +12,6 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   base: '/',
   markdown: {
-    config(md) {
-      // use more markdown-it plugins!
-      md.use(mdItCustomAttrs, 'image', {
-        'data-fancybox': 'gallery',
-      });
-    },
     lineNumbers: true,
   },
   themeConfig: {
@@ -452,14 +445,14 @@ export default defineConfig({
               text: '基础搭建',
               link: '/Note/Java/苍穹外卖/基础搭建',
             },
-                 {
+            {
               text: 'Redis',
               link: '/Note/Java/苍穹外卖/Redis',
             },
           ],
         },
       ],
-      'Note/Node/': [
+      '/Note/Node/': [
         {
           text: 'Node基础',
           items: [
